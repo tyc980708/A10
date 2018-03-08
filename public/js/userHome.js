@@ -76,7 +76,11 @@ function complete(e) {
 function initializePage() {
 	$(".complete_pickUp").click(function(e) {
     console.log("YES!!!!!!!!!!!");
-		gtag('send', 'event', 'complete_pickUp', 'click');
+		gtag("send", "event", 'complete_pickUp', 'click');
+	});
+	$(".likeCtr").click(function(e) {
+    console.log("NOO!!!!!!!!!!!");
+		gtag("send", "event", 'like', 'click');
 	});
 	$(".items").click(goToDetail);
 	$("#placeOrder").click(order);
