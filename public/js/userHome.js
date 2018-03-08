@@ -72,9 +72,10 @@ function complete(e) {
 
 function clickButton(e) {
 	e.preventDefault();
-	gtag("create","UA-115397636-1","auto")
+	ga("create","UA-115397636-1","auto");
+	ga("send","pageview");
 	console.log("YES!!!!!!!!!!!");
-	gtag("send", "event", 'complete_pickUp', 'click');
+	ga("send", "event", 'complete_pickUp', 'click');
 }
 
 /*
@@ -85,8 +86,9 @@ function initializePage() {
 	$(".likeCtr").click(function(e) {
 		e.preventDefault();
 		console.log("NOO!!!!!!!!!!!");
-		gtag("create","UA-115397636-1","auto")
-		gtag("send", "event", 'like', 'click');
+		ga("create","UA-115397636-1","auto");
+		ga("send","pageview");
+		ga("send", "event", 'like', 'click');
 	});
 	$(".items").click(goToDetail);
 	$("#placeOrder").click(order);
