@@ -52,7 +52,7 @@
 						</td>
 					</tr>
 				</table>
-					<button class="complete">Confirm Pickup</button>
+					<div class="complete_pickUp"><button class="complete">Confirm Pickup</button> </div>
 			</div>
 			{{/each}}
 			{{else}}
@@ -82,7 +82,7 @@
 						</td>
 					</tr>
 				</table>
-					<button class="complete">Complete order</button>
+					<div class="complete_pickUp"><button class="complete">Complete order</button></div>
 			</div>
 			{{/each}}
 			{{/if}}
@@ -105,13 +105,13 @@
 		</div>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115397636-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115397636-1"></script>
+		<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+			gtag('config', 'UA-115397636-1');
+		</script>
 
-  gtag('config', 'UA-115397636-1');
-</script>
 	</body>
 </html>

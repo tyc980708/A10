@@ -81,4 +81,8 @@ function initializePage() {
 	$("#edit").click(edit);
 	$(".complete").click(complete);
 	$(".historySellerItems").click(goToHistoryDetail);
+	$(".complete_pickUp").click(function(e) {
+    console.log("YES!!!!!!!!!!!");
+		ga('send', 'event', 'complete_pickUp', 'click');
+	});
 }
