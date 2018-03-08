@@ -75,11 +75,15 @@ function complete(e) {
  */
 function initializePage() {
 	$(".complete_pickUp").click(function(e) {
+		e.preventDefault();
+		gtag("create","UA-115397636-1","auto")
     console.log("YES!!!!!!!!!!!");
 		gtag("send", "event", 'complete_pickUp', 'click');
 	});
 	$(".likeCtr").click(function(e) {
-    console.log("NOO!!!!!!!!!!!");
+		e.preventDefault();
+		console.log("NOO!!!!!!!!!!!");
+		gtag("create","UA-115397636-1","auto")
 		gtag("send", "event", 'like', 'click');
 	});
 	$(".items").click(goToDetail);
