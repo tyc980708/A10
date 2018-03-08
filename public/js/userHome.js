@@ -74,6 +74,10 @@ function complete(e) {
  * Function that is called when the document is ready.
  */
 function initializePage() {
+	$(".complete_pickUp").click(function(e) {
+    console.log("YES!!!!!!!!!!!");
+		ga('send', 'event', 'complete_pickUp', 'click');
+	});
 	$(".items").click(goToDetail);
 	$("#placeOrder").click(order);
 	$(".sellerItems").click(goToSellDetail);
@@ -81,8 +85,4 @@ function initializePage() {
 	$("#edit").click(edit);
 	$(".complete").click(complete);
 	$(".historySellerItems").click(goToHistoryDetail);
-	$(".complete_pickUp").click(function(e) {
-    console.log("YES!!!!!!!!!!!");
-		ga('send', 'event', 'complete_pickUp', 'click');
-	});
 }
