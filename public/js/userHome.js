@@ -70,16 +70,18 @@ function complete(e) {
 	window.location.href = "../buyer_orderHistory2?id=" + projectID;
 }
 
+function clickButton(e) {
+	e.preventDefault();
+	gtag("create","UA-115397636-1","auto")
+	console.log("YES!!!!!!!!!!!");
+	gtag("send", "event", 'complete_pickUp', 'click');
+}
+
 /*
  * Function that is called when the document is ready.
  */
 function initializePage() {
-	$(".complete_pickUp").click(function(e) {
-		e.preventDefault();
-		gtag("create","UA-115397636-1","auto")
-    console.log("YES!!!!!!!!!!!");
-		gtag("send", "event", 'complete_pickUp', 'click');
-	});
+	$(".complete_pickUp").click(clickButton);
 	$(".likeCtr").click(function(e) {
 		e.preventDefault();
 		console.log("NOO!!!!!!!!!!!");
@@ -94,3 +96,5 @@ function initializePage() {
 	$(".complete").click(complete);
 	$(".historySellerItems").click(goToHistoryDetail);
 }
+
+
