@@ -17,10 +17,6 @@ a {
 	color: black;
 }
 
-h2, h3, h4, h5 {
-	font-style: italic;
-}
-
 .search {
   border: 2px solid black;
   max-width: 440px;
@@ -67,4 +63,9 @@ button {
 	margin-top: 20px;
 	border-style: solid;
 	border-color: black;
+}
+
+#fileToUpload {
+	border: 1px solid black;
+	background-color: ghostwhite;
 }

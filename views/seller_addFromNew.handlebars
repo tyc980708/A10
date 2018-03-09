@@ -21,31 +21,42 @@
  			</table>
 			</div>
 
+			<br>
+			<div>
+				<form action="upload.php" method="post" enctype="multipart/form-data">
+					<h4>Select image to upload:<h4>
+					<input type="file" name="fileToUpload" id="fileToUpload">
+				</form>
+			</div>
+
  			<center><table>
  				<form id="addFromNew" role="form" method="get" action="/add">
 	    			<div class="form-group">
-	      		<label for="name">Name:</label>
+	      		<label for="name">Name</label>
 	     	 		<input type="text" class="form-control" id="name" placeholder="Name" name="name">
 	    			</div>
 	    			<div class="form-group">
-	      			<label for="description">Description:</label>
+	      			<label for="description">Description</label>
 	      			<input type="text" class="form-control" id="description" placeholder="Description" name="description">
 	    			</div>
 	    			<div class="form-group">
-	      		<label for="price">Price:</label>
+	      		<label for="price">Price</label>
 	     	 		<input type="text" class="form-control" id="price" placeholder="$5.0" name="price">
 	    			</div>
 	    			<div class="form-group">
-	      		<label for="pickupTime">Pickup Time:</label>
+	      		<label for="pickupTime">Pickup Time</label>
 	     	 		<input type="text" class="form-control" id="pickupTime" placeholder="06:30" name="pickupTime">
 	    			</div>
 						<div class="form-group">
-	      			<label for="learn">Allow Buyer to Come to Learn the Menu:</label>
+	      			<label for="learn">Allow Buyer to Come to Learn the Menu</label>
 	     	 		<input type="text" class="form-control" id="name" placeholder="Yes/No" name="learn">
 	    			</div>
+
+						<hr>
 	    			<input type="submit" id="submitBtn" class="btn btn-default" value="Add Item"></input>
 				</form>
  			</table></center>
+
 
 		</div>
 		<script src="/js/jquery-1.11.0.js"></script>

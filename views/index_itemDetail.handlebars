@@ -19,8 +19,12 @@
  		<div class = "container">
  			<div id="myHeader" class="header">
  				<table>
- 					<td><div class="topIcon"><a href="./buyer_home"><i class="material-icons" style="font-size:50px;">backspace</i></a></div></td>
- 					<td><h2>Details</h2></td>
+ 					<td>
+						 <div class="topIcon"><a href="./buyer_home"><i class="material-icons" style="font-size:50px;">backspace</i></a></div>
+					</td>
+ 					<td>
+						 <h2>Details</h2>
+					</td>
  				</table>
  			</div>
 
@@ -33,22 +37,22 @@
  				</td>
  				<td>
  					<table>
-					<tr>
-      					<td colspan="2">
-      						<h4 class = "item_name">{{name}}</h4>
-      					</td>
-      					<td></td>
-      				</tr>
-      				<tr>
-      					<td>
-      						<p><Strong>Price: </strong>{{price}}</p>
-      						<p><Strong>Distance: </Strong>{{distance}}</p>
-      					</td>
-      					<td>
-      						<p><Strong>Seller Rating: </Strong>{{sellerRating}}</p>
-      						<p><Strong>Pickup Time: </Strong>{{pickupTime}}</p>
-      					</td>
-      				</tr>
+						<tr>
+							<td colspan="2">
+								<h4 class = "item_name">{{name}}</h4>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>
+								<p>Price: <strong>{{price}}</strong></p>
+								<p>Distance: <strong>{{distance}}</strong></p>
+							</td>
+							<td>
+								<p>Seller Rating: <strong>{{sellerRating}}</strong></p>
+								<p>Pickup Time: <strong>{{pickupTime}}</strong></p>
+							</td>
+						</tr>
 					</table>
  				</td>
  			</table>
@@ -108,7 +112,7 @@
  				</td>
  			</table> -->
 
- 			<table>
+ 			<center><table>
  				<td id="total">
  					TOTAL PRICE:
  					<strong>{{price}}</strong>
@@ -118,7 +122,7 @@
  					<input type="submit" id="submitBtn" class="btn btn-default" value="PLACE ORDER"></input>
 				</form>
  				</td>
- 			</table>
+ 			</table></center>
 
 			<br>
 			</div>

@@ -79,7 +79,7 @@
 
  			<table>
  				<td>
- 					<h3 class="info">- Pickup at:</h3>
+ 					<h3 class="info">Pickup Location</h3>
  					<p class="text">{{pickupLocation}}</p>
  				</td>
  				<td>
@@ -87,33 +87,30 @@
 					</a>
  				</td>
  			</table>
- 			<h3 class="info">- Pickup Time: {{pickupTime}}</h3>
- 			<h3 class="info">- Come and Learn to Cook This Item Allowed: {{learn}}</h3>
- 			<h3 class="info">- Description: </h3>
+ 			<h3 class="info">Pickup Time</h3>
+			<p class="text">{{pickupTime}}</p>
+ 			<h3 class="info">Come and Learn to Cook This Item Allowed</h3>
+			<p class="text">{{learn}}</p>
+ 			<h3 class="info">Description </h3>
  			<p class="text">
  				{{description}}
  			</p>
+ 			<h3 class="info">Order Numbers</h3>
 
- 			<table>
- 				<th>
- 					- Order Numbers:
- 				</th>
- 				<td id="orderNumbers">
- 					<strong>{{orderNumbers}}</strong>
- 				</td>
- 			</table>
+			<p class="text" id="orderNumbers">
+ 				{{orderNumbers}}
+ 			</p>
 
 			<hr>
-			<hr>
-			<hr>
- 			<table>
+
+			<center><table>
  				<td>
 					<form id="delete" role="form" method="get" action="/delete">
 						<input type="submit" id="submitBtn" class="btn btn-default" value="DELETE"></input>
 					</form>
  					</a>
  				</td>
- 			</table>
+ 			</table></center>
 
  			</div>
 

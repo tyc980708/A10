@@ -28,7 +28,9 @@ a {
 img {
 	max-width: 128px;
 	max-height: 128px;
-
+	border-radius: 15px;
+	border: 1px solid black;
+	margin-right: 15px;
 }
 
 #incompleted .items {
@@ -46,4 +48,6 @@ img {
 button {
 	margin: 7px;
 	border: 2px solid black;
+	background-color: ghostwhite;
+	border-radius: 10px;
 }

@@ -36,10 +36,6 @@ a {
 	color: black;
 }
 
-h2, h3, h4, h5 {
-	font-style: italic;
-}
-
 #search {
   border: 2px solid black;
   max-width: 335px;
@@ -54,9 +50,10 @@ h2, h3, h4, h5 {
 	max-width: 400px;
 	padding: 5px;
 	background-color: seashell;
-	border: 1px solid lightgreen;
+	border: 1px solid black;
 	margin: 15px;
 	margin-top: 0px;
+	border-radius: 15px;
 }
 
 #itemMainPic {
@@ -68,6 +65,7 @@ h2, h3, h4, h5 {
 .sellerItems img {
 	max-width: 100px;
 	max-height: 100px;
+	border-radius: 15px;
 }
 
 .sellerItems td {
@@ -75,5 +73,5 @@ h2, h3, h4, h5 {
 }
 
 #orderNumbers{
-	font-size: 30px;
+	font-size: 20px;
 }
