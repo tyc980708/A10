@@ -1,5 +1,5 @@
 a {
-	color: black;
+	color: green;
 }
 .topIcon {
 	padding-top: 12px;
@@ -12,7 +12,7 @@ a {
 
 img {
 	border-radius: 15px;
-	border: 1px solid black;
+	border: 1px solid green;
 }
 
 #accountPic {
@@ -30,4 +30,20 @@ img {
 #payment {
 	padding-left: 10px;
 	padding-top: 20px;
+}
+
+#edit{
+	color:green;
+}
+
+h2{
+	color:green;
+}
+
+#edit{
+	color: green;
+}
+
+#check{
+	color:green;
 }

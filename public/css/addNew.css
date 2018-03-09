@@ -2,6 +2,10 @@ h1 {
 	margin-left: 15px;
 	font-size: 25px;
 }
+h2{
+	color:green;
+
+}
 .topIcon {
 	margin-top: 14px;
 }
@@ -14,11 +18,11 @@ h1 {
 }
 
 a {
-	color: black;
+	color: green;
 }
 
 .search {
-  border: 2px solid black;
+  border: 2px solid green;
   max-width: 440px;
   max-height: 50px;
 }
@@ -62,10 +66,14 @@ textarea {
 button {
 	margin-top: 20px;
 	border-style: solid;
-	border-color: black;
+	border-color: green;
 }
 
 #fileToUpload {
-	border: 1px solid black;
+	border: 1px solid green;
 	background-color: ghostwhite;
+}
+
+#submitBtn{
+	color:green;
 }

@@ -18,7 +18,7 @@ img {
 max-width: 160;
 max-height: 160;
 border-radius: 15px;
-border: 1px solid black;
+border: 1px solid green;
 margin-right: 10px;
 }
 
@@ -28,7 +28,7 @@ margin-right: 10px;
 }
 
 a {
-	color: black;
+	color: green;
 }
 .topIcon {
 	padding-top: 12px;
@@ -40,6 +40,7 @@ a {
 
 #callAndText {
 	text-align: right;
+	padding-left: 100px;
 }
 
 #total {
@@ -77,4 +78,12 @@ textarea {
 img {
 	max-width: 140px;
 	max-height: 140px;
+}
+
+#submitBtn{
+	color: green;
+}
+
+h2{
+	color: green;
 }

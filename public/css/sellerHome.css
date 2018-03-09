@@ -23,6 +23,7 @@
 h1 {
 	margin-left: 12px;
 	font-size: 24px;
+	color: green;
 }
 .topIcon {
 	margin-top: 14px;
@@ -33,7 +34,7 @@ h1 {
 }
 
 a {
-	color: black;
+	color: green;
 }
 
 #search {
@@ -50,7 +51,7 @@ a {
 	max-width: 400px;
 	padding: 5px;
 	background-color: seashell;
-	border: 1px solid black;
+	border: 1px solid green;
 	margin: 15px;
 	margin-top: 0px;
 	border-radius: 15px;
@@ -74,4 +75,8 @@ a {
 
 #orderNumbers{
 	font-size: 20px;
+}
+
+label{
+	color:green;
 }

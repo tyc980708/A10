@@ -19,7 +19,7 @@ content {
 }
 
 a {
-	color: black;
+	color: green;
 }
 .topIcon {
 	padding-top: 12px;
@@ -29,7 +29,7 @@ img {
 	max-width: 128px;
 	max-height: 128px;
 	border-radius: 15px;
-	border: 1px solid black;
+	border: 1px solid green;
 	margin-right: 15px;
 }
 
@@ -47,7 +47,11 @@ img {
 
 button {
 	margin: 7px;
-	border: 2px solid black;
+	border: 2px solid green;
 	background-color: ghostwhite;
 	border-radius: 10px;
+}
+
+h1,h2,h3{
+	color:green;
 }
