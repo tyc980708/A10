@@ -23,7 +23,7 @@
 				<a href="seller_home"><i class="material-icons" style="font-size:50px;">swap_horiz</i></div></td></a>
 			<td><h1>Order Meals</h1></td>
 			<td id="topRightIconPadding"> </td>
-			<td><div class="topIcon" id = "history"><a href="./buyer_orderHistory_A"><i class="material-icons" style="font-size:50px;">assignment</i></a></div></td>
+			<td><div class="topIcon" id = "history"><a href="./buyer_orderHistory"><i class="material-icons" style="font-size:50px;">assignment</i></a></div></td>
 			<td><div class="topIcon" id = "account_box"><a href="./account"><i class="material-icons" style="font-size:50px;">account_box</i></a></div></td>
 		</table>
 		<label>switch to sell</label>
@@ -60,9 +60,6 @@ function myFunction() {
 </script>-->
 
 		<div class="content">
-		{{#if viewAlt}}
-				Ohhhhhhhhh
-		{{else}}
 		{{#each items}}
 
 		<div class = "items" id = "{{@index}}">
@@ -92,20 +89,11 @@ function myFunction() {
 			</a>
 		</div>
 		{{/each}}
-		{{/if}}
 		</div>
 
 	</div>
 
 
 	<script src="/js/userHome.js"></script>
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115397636-1"></script>
-		<script>
-  		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
-			gtag('config', 'UA-115397636-1');
-		</script>
 </body>
 </html>
